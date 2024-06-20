@@ -1,0 +1,25 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/community": "^0.2.1",
+    "@langchain/core": "^0.2.1",
+    "@langchain/mongodb": "^0.0.3",
+    "@langchain/openai": "^0.0.33",
+    "ai": "^3.1.14",
+    "express": "^4.19.2",
+    "langchain": "^0.2.1",
+    "mongodb": "^6.6.2",
+    "mongoose": "^8.4.0",
+    "openai": "^4.47.1"
+  }
+}
